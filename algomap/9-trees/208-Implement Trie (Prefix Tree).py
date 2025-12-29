@@ -1,0 +1,83 @@
+# 208. Implement Trie (Prefix Tree)
+# https://leetcode.com/problems/implement-trie-prefix-tree/
+
+class Trie:
+    """
+    A trie (pronounced as "try") or prefix tree is a tree data structure used to efficiently
+    store and retrieve keys in a dataset of strings.
+    """
+    
+    def __init__(self):
+        pass
+        
+    def insert(self, word: str) -> None:
+        """Inserts the string word into the trie."""
+        pass
+        
+    def search(self, word: str) -> bool:
+        """Returns true if the string word is in the trie (i.e., was inserted before), and false otherwise."""
+        pass
+        
+    def startsWith(self, prefix: str) -> bool:
+        """Returns true if there is a previously inserted string word that has the prefix prefix, and false otherwise."""
+        pass
+
+
+# Test cases
+if __name__ == "__main__":
+    trie = Trie()
+    trie.insert("apple")
+    print(trie.search("apple"))   # Expected: True
+    print(trie.search("app"))     # Expected: False
+    print(trie.startsWith("app")) # Expected: True
+    trie.insert("app")
+    print(trie.search("app"))     # Expected: True
+
+# DSA Approach (Concise Prep Checklist)
+# 1. Repeat the question
+# - Restate problem in one sentence (inputs -> transformation -> output)
+# - Confirm input types, indexing (0 vs 1), single vs multiple test cases
+# - Ask edge cases: empty, single element, duplicates, negatives, overflow
+# - Confirm allowed operations: modify input, sort, extra memory, recursion limits
+# - Clarify constraints: max/min n, value ranges, time/memory limits, target Big-O
+# - Confirm output format, ordering, stability, tie-breakers, no-solution behavior
+# - Ask for 1 normal + 1 tricky example with expected output
+# - Confirm environment expectations: libraries, full I/O vs function only, tests required
+
+# 2. Clarifying questions
+# - Inputs: type, size, range, sorted?, mutable?
+# - Outputs: format, order, duplicates allowed?
+# - Constraints: n, value bounds, performance target
+# - Sorting: allowed? stability required?
+# - Memory: fits in memory or streaming?
+# - Special cases: empty, all same, extreme values, cycles (if applicable)
+
+# 3. Work through an example
+# - Use small sample input
+# - Step through logic manually
+# - Track pointers/stack/queue/map state
+# - Verify expected output and edge behavior
+
+# 4. Brainstorm solutions
+# - Identify pattern: hash, two pointers, sliding window, stack, heap, BFS/DFS, DP, greedy
+# - Start with brute force and its Big-O
+# - Propose optimal approach and tradeoffs
+# - Match data structure to need (lookup, ordering, top-k, dependencies)
+
+# 5. Step out the solution
+# - Choose approach + data structures
+# - Write steps in plain logic/pseudocode
+# - Define loop invariants
+# - Dry-run on example
+# - State time and space complexity
+
+# 6. Convert to code
+# - Translate steps directly to code
+# - Comment intent and invariants
+# - Handle edge cases early
+# - Re-run example and edge cases mentally
+# 7. Verify and explain
+# - Restate final Big-O
+# - Explain correctness briefly
+# - Mention alternative approaches if asked
+
