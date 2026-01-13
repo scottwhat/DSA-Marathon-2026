@@ -1,3 +1,4 @@
-# Dynamic programming 
-algomonster 1hr: https://www.youtube.com/watch?v=9k31KcQmS_U
 
+
+## get a count for each 1, add the minimum of the counters 
+##
