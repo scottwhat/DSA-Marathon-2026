@@ -1,5 +1,7 @@
 # intersection with dupes
 
+## this was tricky, understand the wording 
+
 # DSA Approach (Concise Prep Checklist)
 # 1. Repeat the question
 # - Restate problem in one sentence (inputs -> transformation -> output)

@@ -1,6 +1,5 @@
 # intersection
 
-
 # lesson learnt
 def intersection(a, b):
 
