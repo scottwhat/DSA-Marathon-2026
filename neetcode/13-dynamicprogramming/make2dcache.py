@@ -11,9 +11,9 @@ Using the comprehension ensures each row is a separate list (not multiple
 references to the same inner list), avoiding the common pitfall of
 `cache = [[-1] * m] * n`.
 """
-n=3
+# n=3
 
-make make an array of -1 elements with *m length, for _ in range(n) time
-cache = [[-1] * m for x in range(n)]
+# make make an array of -1 elements with *m length, for _ in range(n) time
+# cache = [[-1] * m for x in range(n)]
 
-print(cache )
+# print(cache )
