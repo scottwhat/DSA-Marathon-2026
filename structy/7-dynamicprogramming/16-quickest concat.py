@@ -1,7 +1,7 @@
 #notes:
-quickest concat grows from previous questions
-#use minimum checking logic
-# set a min = 'inf'
+# quickest concat grows from previous questions
+# #use minimum checking logic
+# # set a min = 'inf'
 
 #then check through the for loop, catch reutnr 1 + for each call
 # min check of min_words vs attempt 
